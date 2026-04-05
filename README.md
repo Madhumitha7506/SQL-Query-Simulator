@@ -22,8 +22,3 @@ A web-based SQL simulator that allows users to execute basic SQL-like queries on
 ## Author
 Madhumitha
 
-## Screenshot
-(Add screenshot here)
-
-## Author
-Madhumitha
