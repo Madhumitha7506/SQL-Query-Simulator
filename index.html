@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SQL Query Simulator</title>
+
+<!-- CSS LINK -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>🌈 SQL Query Simulator</h2>
+
+<textarea id="query" placeholder="Enter SQL Query"></textarea>
+
+<br>
+
+<button onclick="runQuery()">Run Query</button>
+
+<div class="examples">
+<p><b>Example Queries:</b></p>
+<p>SELECT * FROM students</p>
+<p>SELECT * FROM students WHERE marks > 80</p>
+<p>SELECT * FROM students WHERE marks < 80</p>
+<p>SELECT * FROM students ORDER BY marks DESC</p>
+<p>INSERT INTO students VALUES</p>
+</div>
+
+<table id="resultTable"></table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

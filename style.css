@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  /* COLORFUL ANIMATED BACKGROUND */
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #42e695, #ff6ec4);
+  background-size: 400% 400%;
+  animation: gradientBG 8s ease infinite;
+}
+
+/* Animation */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Main container */
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Title */
+h2 {
+  color: #ffd700;
+}
+
+/* Textarea */
+textarea {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ff9a9e;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fad0c4;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+
+th {
+  background: #667eea;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* Example section */
+.examples {
+  margin-top: 20px;
+  text-align: left;
+}
