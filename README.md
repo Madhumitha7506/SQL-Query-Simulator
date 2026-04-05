@@ -19,8 +19,8 @@ A web-based SQL simulator that allows users to execute basic SQL-like queries on
 - Query Parsing
 - Data Filtering and Sorting
 
-## Live Demo
-(Add your GitHub Pages link here)
+## Author
+Madhumitha
 
 ## Screenshot
 (Add screenshot here)
